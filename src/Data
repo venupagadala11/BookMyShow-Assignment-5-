@@ -1,0 +1,14 @@
+import m1 from './images/movies/ant-man.avif';
+import m2 from './images/movies/bear.avif';
+import m3 from './images/movies/fast-x.avif';
+import m4 from './images/movies/selfie.avif';
+import m5 from './images/movies/shehzada.avif';
+const data = [
+    {name:'And-man',src:{m1}},
+    {name:'Bear',src:{m2}},
+    {name:'Fast Ann Furious',src:{m3}},
+    {name:'Selfie',src:{m4}},
+    {name:'Shehzada',src:{m5}}
+];
+
+export default data;

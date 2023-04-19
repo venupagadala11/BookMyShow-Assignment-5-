@@ -1,0 +1,103 @@
+.card-container
+{
+    padding: 25px 50px;
+    .title
+    {
+        font-size: 25px;
+        font-weight: bold;
+        padding: 5px 0px;
+    }
+
+        .cards-align
+        {
+            display: flex;
+            justify-content: space-between;
+
+            .card
+            {
+                max-width:210px;
+                width:100%;
+                background-color: var(--white);
+                border: none;
+                border-radius: none;
+                .card-image
+                {
+                    max-width:210px;
+                    max-height: 356px;
+                    width:100%;
+                    border-radius: 10px;
+                    cursor: pointer;
+                }
+            }
+
+            .card-details
+            {
+                .card-title
+                {
+                    font-size: 18px;
+                    color:var(--black);
+                    max-width:340px;
+                    font-weight: 500;
+                    padding-top: 7px;
+                    margin: 0px !important; 
+                }
+                .card-desc
+                {
+                    font-size: 16px;
+                    color:var(--gray);
+                }
+            }
+        }
+}
+
+
+.movie-section
+{
+    .title
+    {
+        font-size: 25px;
+        font-weight: bold;
+        padding: 5px 0px;
+    }
+
+        .cards-align
+        {
+            display: flex;
+            gap:30px;
+            flex-wrap: wrap;
+
+            .card
+{
+    max-width:190px;
+    width:100%;
+    background-color: var(--white);
+    border: none;
+    border-radius: none;
+    .card-image
+    {
+        max-width:210px;
+        max-height: 356px;
+        width:100%;
+        border-radius: 10px 
+    }
+}
+
+    .card-details
+    {
+        .card-title
+        {
+            font-size: 18px;
+            color:var(--black);
+            max-width:340px;
+            font-weight: 500;
+            padding-top: 7px;
+            margin: 0px !important; 
+        }
+        .card-desc
+        {
+            font-size: 16px;
+            color:var(--gray);
+        }
+    }
+        }
+}

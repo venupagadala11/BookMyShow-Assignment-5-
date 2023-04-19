@@ -1,0 +1,23 @@
+.live-events
+{
+    padding: 25px 50px;
+    .title
+    {
+        font-size: 25px;
+        font-weight: bold;
+        padding:5px 0px;
+    }
+    .events
+    {
+        display: flex;
+        justify-content: space-between;
+        .event
+        {
+            max-width:209px;
+            max-height: 209px;
+            width:100%;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+    }
+}

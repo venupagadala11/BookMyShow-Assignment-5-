@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import '~bootstrap/scss/bootstrap.scss';
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+    padding: 0px;
+}
+
+
+
+:root
+{
+    --navBarBackground:#222539;
+    --white:#DEDEDE ;
+    --headerBackGround:#333545;
+    --red:#F84464;
+    --black:black;
+    --gray:#666666;
+    --movieDetailsBackGroundColor:#272727;
+    --backGroundGray:#666666;
+    --movieDescBackGround:#272727;
+    --movieTitleColor:#DEDEDE;
+    --green:#3CB56D;
+    --blue:blue;
+    --pureWhite:white;
+    --borderColor:#868686;
+    --premiereBackGround:rgb(43, 49, 72);
+    
+}
+.app
+{
+    background-color: var(--white);
+    .reel
+    {
+        padding: 25px 50px;
+        .reel-img
+        {
+            width:calc(100vw - 100px);
+            cursor: pointer;
+        }
+    }
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+

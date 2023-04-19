@@ -1,0 +1,23 @@
+.search-card
+{
+    background-color: var(--pureWhite);
+    padding: 14px 45px 12px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    .title
+    {
+        margin: 0px 0px 2px;
+        white-space: nowrap;
+        color: var(--red);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.25;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .category
+    {
+        font-size: 14px;
+        color:var(--gray)
+    }
+}

@@ -1,0 +1,92 @@
+.footer
+{
+    width:100%;
+    background-color: #2b2929;
+    padding-bottom: 50px;
+    .footer-top
+    {
+     display: flex;
+     justify-content: space-between;
+     padding:30px;
+     .bellnText
+     {
+        display: flex;
+        gap:20px;
+        color:var(--white);
+        align-items: center;
+        .list
+        {
+            font-size: 16px;
+            font-weight: 900;
+        }
+        .footer-desc
+        {
+            font-size: 16px;
+        }
+     }
+
+    }
+    .footer-services
+    {
+        display: flex;
+        padding:20px;
+        width: 100%;
+        justify-content: space-around;
+        background-color:#3e3c3c;
+    }
+    .align-logo
+    {
+        display: flex;
+        justify-content: space-between;
+        padding:30px 20px;
+        .just-border
+        {
+            border: 1px solid var(--gray);
+            height: 1px;
+            width: 534px;
+            display: flex;
+            align-items: center;
+            margin-top: 14px;
+        }
+    }
+    .social-media-icons
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:20px;
+        .align-icons
+        {
+            display: flex;
+            gap:10px;
+            .icon
+            {
+                width:40px;
+                height: 40px;
+                border-radius: 50%;
+                filter: grayscale(100%);
+                cursor: pointer;
+            }
+            .icon:hover
+            {
+                filter: grayscale(0%);
+                
+            }
+        }
+    }
+    .copyRights
+    {
+        font-size: 11px;
+        color:#666666;
+        text-align: center;
+        padding: 0px 10px;
+    }
+}
+.icon:hover{
+filter: grayscale(100%); /* Make the icons black and white */
+transition: filter 0.2s; /* Add a transition effect */
+}
+
+.icon:hover {
+filter: grayscale(0%); /* Show the color on hover */
+}

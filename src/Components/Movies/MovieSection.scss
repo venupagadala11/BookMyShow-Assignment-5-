@@ -1,0 +1,32 @@
+.movies-section
+{
+    display: flex;
+    padding:25px 50px;
+    .filters
+    {
+        .filter-title
+        {
+            font-size: 25px;
+            font-weight: bold;
+            padding: 10px 0px;
+        }
+    }
+    .movieSection-title
+    {
+        padding-left: 20px;
+        .movieSection-title
+        {
+            font-size: 25px;
+            font-weight: bold;
+            padding: 10px 0px;
+        }
+        .soon-image
+        {
+            max-width: calc(100vw - 420px);
+            width:100%;
+            padding:32px 0px;
+            cursor: pointer;
+        }
+    }
+    
+}

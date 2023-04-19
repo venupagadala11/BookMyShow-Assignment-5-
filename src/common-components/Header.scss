@@ -1,0 +1,62 @@
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--headerBackGround);
+    padding:13px 50px;
+    gap:5px;
+
+    .header-searchBar
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 5px;
+        background-color: var(--pureWhite);
+        max-width:550px;
+        width: 100%;
+        gap:5px;
+
+
+        .header-inputBar
+        {
+            max-width: 449px;
+            border: 0px;
+            padding-left: 10px;
+            background-color: var(--pureWhite);
+            width:100%;
+           
+        }
+        .header-inputBar:focus {
+            // outline: none;
+            border-radius: 5px;
+            outline: none;
+            color:var(--black);
+                
+        }
+        .header-searchLogo
+        {
+            padding-left:16px;
+        }
+    }
+    .header-menuBar
+    {
+        padding-right: 6px;
+        display: flex;
+        justify-content: space-evenly;
+        gap:20px;
+        align-items: center;
+    }
+}
+
+.nav-bar
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--navBarBackground);
+    padding:10px 40px
+}
+
+

@@ -1,0 +1,23 @@
+
+.service-image
+{
+    display: flex;
+    justify-content: center;
+
+    .card-image
+    {
+        max-width: 70px;
+        height: 70px;
+        width:100%;
+        background-color: var(--black);
+        border-radius: 10px;
+       
+
+    }
+}
+.footerCard-desc
+{
+    color: rgba(188, 192, 196, 0.74);
+    font-size:12px;
+    padding:10px 0px;
+}

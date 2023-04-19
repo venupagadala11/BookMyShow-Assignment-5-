@@ -1,0 +1,18 @@
+.sharp-border
+        {
+            padding: 3px 12px;
+            color:var(--red);
+            font-size: 14px;
+            border:1px solid var(--backGroundGray);
+            cursor: pointer;
+        }
+.curved-border
+{
+    padding: 5px 12px;
+    color:var(--red);
+    font-size: 14px;
+    border:1px solid var(--red);
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
